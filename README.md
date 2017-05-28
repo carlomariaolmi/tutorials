@@ -7,9 +7,9 @@ Repository of teaching materials, code, and data for my data analysis and machin
    * Google Translation API
    * SoundCloud API
     
-2. ** Time series and Forecasting **
+2. **Time series and Forecasting**
    * Introduction
    * Time series analysis
    * Forecasting with ARIMA
 
-3. ** Clustering **
+3. **Clustering**
