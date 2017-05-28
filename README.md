@@ -12,4 +12,4 @@ Repository of teaching materials, code, and data for my data analysis and machin
    * Time series analysis
    * Forecasting with ARIMA
 
-3. **Clustering**
+3. **Data Visualization**
