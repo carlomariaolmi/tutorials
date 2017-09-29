@@ -78,7 +78,7 @@ Margin of Error
 
 
 
-
+$$ \alpha = \beta $$        (a)
 
 
 
