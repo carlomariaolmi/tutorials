@@ -12,11 +12,11 @@ Null hypothesis (Ho)
 (Most of the statistics used in A/B testing come from the field of Statistical hypothesis testing.)
 
 
-|                    | Condition of null hypothesis |
-| Possible Actions   | True        | False |
-| ------             | ----------- |
-| Fail to reject H   | path to data files to supply the data that will be passed into templates. |
-| Reject H           | engine to be used for processing templates. Handlebars is the default. |
+
+|------------------|------|--------|---|---|
+| Possinble action | H true | H faalse |   |   |
+| A                |      |        |   |   |
+| b                |      |        |   |   |
 
 
 * P-value
