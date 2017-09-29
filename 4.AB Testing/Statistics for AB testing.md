@@ -5,23 +5,23 @@ An A/B test consists of taking two comparable groups of users and exposing them 
 
 #### Some relevant statistics concepts
 
-Overall Evaluation Criterion (OEC)
+* Overall Evaluation Criterion (OEC)
 Also called Primary Goal (in Optimizely and other tools) or Dependent variable, in statistics terminology. It’s a quantitative measure that defines the experiment’s objective. Ex. Conversion rate.
 Null hypothesis (Ho)
-The hypothesis that the OECs for the variants are not different in fact, and that any observed differences during the experiment are due to random fluctuations. The goal of our split-test is to reject this null hypothesis, and therefore conclude with statistical significance that an observed difference in the OECs is not due to random fluctuations. Failing to reject the Null hypothesis doesn’t mean it is true, means no conclusion can be drawn.
+* The hypothesis that the OECs for the variants are not different in fact, and that any observed differences during the experiment are due to random fluctuations. The goal of our split-test is to reject this null hypothesis, and therefore conclude with statistical significance that an observed difference in the OECs is not due to random fluctuations. Failing to reject the Null hypothesis doesn’t mean it is true, means no conclusion can be drawn.
 (Most of the statistics used in A/B testing come from the field of Statistical hypothesis testing.)
-P-value
+* P-value
 In the context of Null hypothesis testing, the p-value for a given observed result represents the probability obtaining such result (or any result more extreme than that) only due to random fluctuations, assuming the Null hypothesis is true.
 For the purpose of A/B testing, we can say the p-value represents the probability of observing a given OEC difference (or any difference more extreme than that) between variants due only to random fluctuations, assuming the OECs are in reality the same for both.
 Also:
 The P-value is not the probability of the null-hypothesis being true — it is calculated assuming the null hypothesis is true to start with.
 On Optimizely p-value is not made visible and instead the concept “Statistical Significance status” is mentioned. This value represents the probability of a given observed difference not being due to chance.
-Significance level (SL)
+* Significance level (SL)
 Set in the beginning of the experiment, the significance level (traditionally set to 1% or 5%) is the probability threshold under which the null hypothesis can be rejected. In other words, if a given OEC difference has p-value smaller than the significance level, we’ll conclude the OECs are not the same for the variants and, therefore, believe there’s causality between the change and the effect. In other words, we can say variant B’s OEC is statistically significantly different from the control’s OEC.
 Significance level is also the probability of rejecting the Null hypothesis when this hypothesis is true (called Type I error or false positive).
 As an example, setting the SL of an A/B test to 0.05 (or 5%) means that even for statistically significant results, there’s a 5% risk of concluding there’s a difference between the variations when in fact there is not.
 Note: Optimizely uses different terminology here and allows an Optimizely-significance value to be set for each project (default 10%). According to the documentation, the Optimizely-significance value represents 1-pvalue, which means that to set the SL to 0.05 this value must be chosen to be 95%.
-Power
+* Power
 On the contrary of SL which focuses on assessing the down-side of the experiment (probability of error and no-error), Power represents the probability of correctly rejecting the null hypothesis or obtaining a true-positive.
 In other words, statistical Power is the likelihood that an experiment will detect an effect if there is in fact an effect to be detected.
 The power of an experiment is influenced by a number of factors (such as sample size) and 80% is a typical desired value. Experiments with low power will never be conclusive in practical terms.
@@ -29,7 +29,7 @@ Standard deviation
 The standard deviation (σ — greek ‘sigma’) is a measure that is used to quantify the amount of variation or dispersion of a set of data values, in other words it represents how much ‘spread-out’ the data points are. In the context of A/B testing, we look at the distribution of observed OECs.
 Conversion events, such as purchases or registrations, can be modelled as a Bernoulli trial with probability (p)= conversion rate. In that case, the standard deviation (σ) is given by:
 
-Minimum sample size
+* Minimum sample size
 For a desired Power (probability of detecting a true-positive if it exists) and a sensitivity Δ (the amount of change we want to detect, ex. 5% of control value) we can estimate a minimum sample size that‘s needed to achieve that. A useful formula, for a Power = 80% is the following:
 
 where n is the number of users in each variant. That means that to detect a change Δ with 80% probability, we’ll need n users in each variant.
