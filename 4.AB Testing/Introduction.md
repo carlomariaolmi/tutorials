@@ -10,7 +10,7 @@ What we care about is how our page will ultimately perform with our entire audie
 And from this birdseye view, the answer to our original question is that statistical analysis is our best tool for predicting outcomes we don’t know using information we do know.
 
 In short, statistical analysis allows us to use information we know to predict outcomes we don’t know with a reasonable level of accuracy.
-$$|\vec{A}|=\sqrt{A_x^2 + A_y^2 + A_z^2}.$$(1)
+
 ## Sampling
 
 ![picture](https://conversionsciences.com/wp-content/uploads/pasted-image-0-2.png)
@@ -34,7 +34,6 @@ In real life, you might have only 2 out of the first 100 buy or you might have 2
 
 This variability across samples is expressed as a unit called the “variance”, which measures how far a random sample can differ from the true mean (average).
 
-The Freakonomics podcast makes an excellent point about what “random” really is. If you have one person flip a coin 100 times, you would have a random list of heads or tails with a high variance.
 
 If we write these results down, we would expect to see several examples of long streaks, five or seven or even ten heads in a row. When we think of randomness, we imagine that these streaks would be rare. Statistically, they are quite possible in such a dataset with high variance.
 
@@ -42,12 +41,10 @@ The higher the variance, the more variable the mean will be across samples. Vari
 
 So it would not be impossible to take a sample of ten results that contain one of these streaks. This would certainly not be representative of the entire 100 flips of the coin, however.
 
-Fortunately, we have a phenomenon that helps us account for variance called “regression toward the mean”.
-
 
 In order to compare two pages against each other in an Ab test, we have to first collect data on each page individually.
 
-Typically, whatever AB testing tool you are using will automatically handle this for you, but there are some important details that can affect how you interpret results, and this is the foundation of statistical hypothesis testing, so I want to go ahead and cover this part of the process.
+
 
 Let’s say you test your original page with 3,662 visitors and get 378 conversions. What is the conversion rate?
 
@@ -58,8 +55,8 @@ You are probably tempted to say 10.3%, but that’s inaccurate. 10.3% is simply 
 
 To understand the full story, we need to understand two key terms:
 
-Confidence Interval
-Margin of Error
+* Confidence Interval
+* Margin of Error
 
 
 In order to compare two pages against each other in an Ab test, we have to first collect data on each page individually.
@@ -70,10 +67,7 @@ Let’s say you test your original page with 3,662 visitors and get 378 conversi
 
 You are probably tempted to say 10.3%, but that’s inaccurate. 10.3% is simply the mean of our sample. There’s a lot more to the story.
 
-To understand the full story, we need to understand two key terms:
 
-Confidence Interval
-Margin of Error
 
 
 
