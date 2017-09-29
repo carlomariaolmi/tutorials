@@ -10,6 +10,15 @@ Also called Primary Goal (in Optimizely and other tools) or Dependent variable, 
 Null hypothesis (Ho)
 * The hypothesis that the OECs for the variants are not different in fact, and that any observed differences during the experiment are due to random fluctuations. The goal of our split-test is to reject this null hypothesis, and therefore conclude with statistical significance that an observed difference in the OECs is not due to random fluctuations. Failing to reject the Null hypothesis doesn’t mean it is true, means no conclusion can be drawn.
 (Most of the statistics used in A/B testing come from the field of Statistical hypothesis testing.)
+
+
+|                    | Condition of null hypothesis |
+| Possible Actions   | True        | False |
+| ------             | ----------- |
+| Fail to reject H   | path to data files to supply the data that will be passed into templates. |
+| Reject H           | engine to be used for processing templates. Handlebars is the default. |
+
+
 * P-value
 In the context of Null hypothesis testing, the p-value for a given observed result represents the probability obtaining such result (or any result more extreme than that) only due to random fluctuations, assuming the Null hypothesis is true.
 For the purpose of A/B testing, we can say the p-value represents the probability of observing a given OEC difference (or any difference more extreme than that) between variants due only to random fluctuations, assuming the OECs are in reality the same for both.
