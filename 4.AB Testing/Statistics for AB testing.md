@@ -13,10 +13,10 @@ Null hypothesis (Ho)
 
 
 
-|                                       | The null hypothesis is True | The null hypothesis is False |
-|---------------------------------------|-----------------------------|------------------------------|
-| We reject the null hypothesis         | Type I error                | Correct Decision             |
-| We fail to reject the null hypothesis | Correct Decision            | Type II error                |
+          |                                       | The null hypothesis is True | The null hypothesis is False |
+          |---------------------------------------|-----------------------------|------------------------------|
+          | We reject the null hypothesis         | Type I error                | Correct Decision             |
+          | We fail to reject the null hypothesis | Correct Decision            | Type II error                |
 
 
 * P-value
