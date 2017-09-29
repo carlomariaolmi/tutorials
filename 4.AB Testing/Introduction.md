@@ -10,8 +10,7 @@ What we care about is how our page will ultimately perform with our entire audie
 And from this birdseye view, the answer to our original question is that statistical analysis is our best tool for predicting outcomes we don’t know using information we do know.
 
 In short, statistical analysis allows us to use information we know to predict outcomes we don’t know with a reasonable level of accuracy.
-
-
+$$|\vec{A}|=\sqrt{A_x^2 + A_y^2 + A_z^2}.$$(1)
 ## Sampling
 
 ![picture](https://conversionsciences.com/wp-content/uploads/pasted-image-0-2.png)
