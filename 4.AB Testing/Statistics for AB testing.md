@@ -5,7 +5,7 @@ An A/B test consists of taking two comparable groups of users and exposing them 
 
 #### Some relevant statistics concepts
 
-* Overall Evaluation Criterion (OEC)
+* ##### Overall Evaluation Criterion (OEC)
 Also called Primary Goal (in Optimizely and other tools) or Dependent variable, in statistics terminology. It’s a quantitative measure that defines the experiment’s objective. Ex. Conversion rate.
 Null hypothesis (Ho)
 * The hypothesis that the OECs for the variants are not different in fact, and that any observed differences during the experiment are due to random fluctuations. The goal of our split-test is to reject this null hypothesis, and therefore conclude with statistical significance that an observed difference in the OECs is not due to random fluctuations. Failing to reject the Null hypothesis doesn’t mean it is true, means no conclusion can be drawn.
