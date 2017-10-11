@@ -5,7 +5,6 @@ Repository of teaching materials, code, and data for my data analysis and machin
    * Spotify API
    * Google Maps API
    * Google Translation API
-   * SoundCloud API
     
 2. **Time series and Forecasting**
    * Introduction
@@ -15,3 +14,14 @@ Repository of teaching materials, code, and data for my data analysis and machin
 3. **Data Visualization**
 
 4. **AB Testing**
+   * Hypothesis Testing
+   * Frequentist AB Testing
+   * Bayesian AB Testing
+   
+5. **Descriptive Statistics** 
+   * 
+   * Linear Regression
+   * 
+6. **Business Analytics **
+   * Cohort Analysis
+   
