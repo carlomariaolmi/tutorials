@@ -12,6 +12,9 @@ Repository of teaching materials, code, and data for my data analysis and machin
    * Forecasting with ARIMA
 
 3. **Data Visualization**
+   * Seaborn
+   * Geocoding
+   * 
 
 4. **AB Testing**
    * Hypothesis Testing
